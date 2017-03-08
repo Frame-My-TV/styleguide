@@ -1,0 +1,25 @@
+<svg width="32px" height="43px" viewBox="302 90 32 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0104310448 25.2343417 0.0104310448 0.0491428571 31.6251893 0.0491428571 31.6251893 25.2343417"></polygon>
+        <polygon id="path-3" points="0.0104310448 25.2343417 0.0104310448 0.0491428571 31.6251893 0.0491428571 31.6251893 25.2343417"></polygon>
+    </defs>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(302.000000, 90.000000)">
+        <polyline id="Shape" fill="#676968" fill-rule="nonzero" points="15.8330269 41.2263896 11.3998328 25.043956 4.7761194 25.043956 9.65298054 42.8625375 15.8333746 41.2263896"></polyline>
+        <g id="Clipped">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="a"></g>
+            <polyline id="Shape" fill="#D76713" fill-rule="nonzero" mask="url(#mask-2)" points="2.98380036 19.0485275 4.66093851 25.2343417 21.3506101 25.2343417 19.673472 19.0485275 2.98380036 19.0485275"></polyline>
+        </g>
+        <g id="Clipped">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="a"></g>
+            <polyline id="Shape" fill="#676968" fill-rule="nonzero" mask="url(#mask-4)" points="7.65290985 11.8338062 31.6251893 5.48595804 30.1505872 0.0493146853 0 8.03416983 2.98380036 19.0483556 9.60699224 19.0483556 7.65290985 11.8338062"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "http-server -p 9000 -o"
+  }
+}
