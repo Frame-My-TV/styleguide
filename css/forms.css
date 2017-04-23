@@ -40,7 +40,8 @@ form.form label {
 .form .form-select {
   min-height: 34px;
   padding: 9.5px 14px;
-  font-size: 14px;
+  font-family: inherit;
+  font-size: 13px;
   line-height: 20px;
   color: #888;
   vertical-align: middle;
@@ -212,6 +213,7 @@ form.form label {
   display: inline-block;
   -webkit-appearance: none;
   padding: 9.5px 18px;
+  font-family: inherit;
   font-size: 13px;
   font-weight: bold;
   line-height: 20px;
@@ -264,6 +266,13 @@ form.form label {
 .form .form-group,
 .form .form-radio-group {
   margin: 0 0 15px 0;
+}
+
+.form,
+.form .form-group,
+.form .form-radio-group,
+.form .form-actions {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form .form-group .form-control,
