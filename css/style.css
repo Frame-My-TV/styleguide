@@ -9,10 +9,17 @@ header {
   background-color: #e0e2d7;
 }
 
+a {
+  color: #D76713;
+}
 
 footer {
   background-color: rgba(103, 105, 104, .8);
   /*#676968 80%*/
+}
+
+footer a {
+  color: #fff;
 }
 
 /*black*/
