@@ -1,5 +1,13 @@
+/* doc styles */
+
 header {
   background-color: #e0e2d7;
+}
+
+
+footer {
+  background-color: rgba(103, 105, 104, .8);
+  /*#676968 80%*/
 }
 
 /*black*/
@@ -40,4 +48,14 @@ header {
 
 .swatch-rainee {
   background-color: #aebdaf;
+}
+
+/* background colors */
+
+.bg-cararra {
+  background-color: #eef0e5;
+}
+
+.bg-black-haze {
+  background-color: #E0E2D7;
 }

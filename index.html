@@ -7,15 +7,16 @@
   <title>FMTV - Styleguide</title>
   <link rel="stylesheet" href="css/tachyons.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300|Libre+Baskerville:400i|Montserrat:400,700|Roboto">
 </head>
 
 <body>
-  <article>
+  <section>
     <header class="sans-serif">
       <div class="mw9 center pa4 pt5-ns ph7-l">
         <div class="mb2 f5 lh-title o-60">FMTV</div>
-        <h1>Styleguide <span class="f6 o-60">v1.0.0</span></h1>
+        <h1>Styleguide <span class="f6 o-60">v1.1.0</span></h1>
       </div>
     </header>
     <div class="pa4 ph7-l mw9-l center">
@@ -95,6 +96,181 @@
       </div>
 
       <div class="cf w-100">
+        <h2 class="helvetica b f4">Forms</h2>
+        <div class="fl w-100 pa2">
+          <div class="ba b--black-20 bg-black-haze pa4">
+
+            <h4 class="mh0 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Base Example</span> <a class="fr" href="https://codepen.io/jmelgoza/full/qmNKLb/" target="_blank">Codepen</a></h4>
+
+            <!-- form example -->
+            <form class="form">
+
+              <div class="form-group">
+                <label>Example Text</label>
+                <input class="form-control" type="text" placeholder="Example Placeholder">
+              </div>
+
+              <div class="form-group">
+                <label>Example Select</label>
+                <div>
+                  <select class="form-select">
+                    <option>Choose an option</option>
+                    <option>Git</option>
+                    <option>Subversion</option>
+                    <option>Social Coding</option>
+                    <option>Beets</option>
+                    <option>Bears</option>
+                    <option>Battlestar Galactica</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Example Textarea</label>
+                <textarea class="form-control" rows="8" cols="50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda minus minima placeat maiores sit quas, sed eius debitis reprehenderit quae nulla neque aliquam officiis fuga quibusdam, architecto impedit, dolore porro?</textarea>
+              </div>
+
+              <div class="form-group">
+                <div class="form-checkbox">
+                  <label>
+                      <input type="checkbox" checked="checked">
+                      Available for hire
+                    </label>
+                  <p class="note">
+                    This will do insanely <strong>awesome</strong> and <strong>amazing</strong> things!
+                  </p>
+                </div>
+              </div>
+
+            </form>
+
+            <h4 class="mh0 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Simple Example</span> <a class="fr" href="https://codepen.io/jmelgoza/full/zwBaXY/" target="_blank">Codepen</a></h4>
+            <!-- form example -->
+            <form class="form">
+
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="First Name">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Last Name">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Phone Number">
+              </div>
+
+            </form>
+
+            <h4 class="mh0 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Grid Example</span> <a class="fr" href="https://codepen.io/jmelgoza/full/KmMeYb/" target="_blank">Codepen</a></h4>
+            <!-- form example -->
+            <form class="form">
+
+              <div class="form-grid">
+
+                <div class="form-grid-inner">
+
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="First Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Last Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email">
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Phone Number">
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Phone Number">
+                  </div>
+
+                  <div class="form-group">
+                    <select class="form-select">
+                      <option>Choose an option</option>
+                      <option>Git</option>
+                      <option>Subversion</option>
+                      <option>Social Coding</option>
+                      <option>Beets</option>
+                      <option>Bears</option>
+                      <option>Battlestar Galactica</option>
+                    </select>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </form>
+
+            <h4 class="mh0 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Radio Example</span></h4>
+            <!-- form example -->
+            <form class="form">
+
+              <div class="form-group">
+                <div class="form-radio">
+                  <input type="radio" name="size" id="size_1" value="small">
+                  <label for="size_1">Small</label>
+                </div>
+                <div class="form-radio">
+                  <input type="radio" name="size" id="size_2" value="medium">
+                  <label for="size_2">Medium</label>
+                </div>
+                <div class="form-radio">
+                  <input type="radio" name="size" id="size_3" value="large">
+                  <label for="size_3">Large</label>
+                </div>
+              </div>
+
+            </form>
+
+            <h4 class="mh0 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Radio Group Example</span> <a class="fr" href="https://codepen.io/jmelgoza/full/vmKroZ/" target="_blank">Codepen</a></h4>
+            <!-- form example -->
+
+            <form class="form">
+
+              <div class="form-radio-group cf" role="radiogroup">
+                <input name="payment_method" type="radio" value="credit_card" checked="checked" class="radio-input" id="pay-by-credit-card-">
+                <label class="radio-label" for="pay-by-credit-card-" role="radio">
+                  Credit card
+                </label>
+                <input name="payment_method" type="radio" value="paypal" class="radio-input" id="pay-with-paypal">
+                <label class="radio-label" for="pay-with-paypal" role="radio">
+                  PayPal account
+                </label>
+                <input name="payment_method" type="radio" value="other" class="radio-input" id="pay-with-other">
+                <label class="radio-label" for="pay-with-other" role="radio">
+                  Other
+                </label>
+              </div>
+            </form>
+
+            <h4 class="mh0 mt4 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Action Buttons Example</span> <a class="fr" href="https://codepen.io/jmelgoza/full/vmKroZ/" target="_blank">Codepen</a></h4>
+            <!-- form example -->
+
+            <form class="form">
+
+              <div class="form-actions">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn">Cancel</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="cf w-100">
         <h2 class="helvetica b f4">UI</h2>
         <div class="fl w-40 pa2">
           <div class="ba b--black-20 bg-white tc pv4"><code>fl w-60 pa2</code></div>
@@ -105,6 +281,12 @@
       </div>
 
     </div>
-  </article>
+  </section>
+  <footer class="sans-serif">
+    <div class="mw9 center pa4 ph7-l">
+      <div class="mb2 f5 lh-title o-60"><strong>FMTV</strong> <a href="http://codepen.io/collection/AObLgP/">Codepen Collection</a></div>
+    </div>
+    </header>
 </body>
+
 </html>
