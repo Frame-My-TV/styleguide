@@ -45,11 +45,11 @@ form.form label {
   line-height: 20px;
   color: #888;
   vertical-align: middle;
-  background-color: #f2f3eb;
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: right 8px center;
   border: 1px solid;
-  border-color: #f2f3eb;
+  border-color: #fff;
   border-radius: .28571429rem;
   outline: none;
   box-shadow: 0 0 0 0 transparent inset;
@@ -63,7 +63,7 @@ form.form label {
   -webkit-appearance: none;
   padding-right: 24px;
   padding-right: 8px \9;
-  background: #f2f3eb url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC") no-repeat right 8px center;
+  background: #fff url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC") no-repeat right 8px center;
   background-image: none \9;
   background-size: 8px 10px;
 
@@ -75,7 +75,7 @@ form.form label {
 .form .form-control:focus,
 .form .form-select.focus,
 .form .form-select:focus {
-  border-color: #e0e2d7;
+  border-color: #D76713;
   outline: none;
   box-shadow: none;
 }
