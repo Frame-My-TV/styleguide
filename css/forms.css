@@ -75,7 +75,7 @@ form.form label {
 .form .form-control:focus,
 .form .form-select.focus,
 .form .form-select:focus {
-  border-color: #D76713;
+  border-color: #d76713;
   outline: none;
   box-shadow: none;
 }
@@ -356,4 +356,30 @@ form.form label {
 
 .form ::placeholder {
   color: rgba(40, 42, 41, .40);
+}
+
+/*Floating labels*/
+/*https://github.com/geminilabs/float-labels.js*/
+
+.fl-form.fl-style-2 input.fl-input,
+.fl-form.fl-style-2 select.fl-select,
+.fl-form.fl-style-2 textarea.fl-textarea {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  border-color: #fff;
+}
+.fl-form.fl-style-2 input.fl-input:focus,
+.fl-form.fl-style-2 select.fl-select:focus,
+.fl-form.fl-style-2 textarea.fl-textarea:focus {
+  border-color: #d76713;
+}
+.fl-form.fl-style-2 label.fl-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #676968;
+}
+.fl-form.fl-style-2 .fl-has-focus label.fl-label {
+  color: #d76713;
 }
