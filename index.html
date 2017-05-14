@@ -19,7 +19,7 @@
     <header class="sans-serif">
       <div class="mw9 center pa4 pt5-ns ph7-l">
         <div class="mb2 f5 lh-title o-60">FMTV</div>
-        <h1>Styleguide <span class="f6 o-60">v1.1.3</span></h1>
+        <h1>Styleguide <span class="f6 o-60">v1.1.4</span></h1>
       </div>
     </header>
     <div class="pa4 ph7-l mw9-l center">
@@ -93,7 +93,7 @@
         <div class="fl w-50 pa2">
           <div class="ba b--black-20 bg-white tl pa4">
             <h1 style="color: rgba(34,34,34,0.9);">Headings</h1>
-            <p style="color: rgba(34,34,34,0.75); margin: 0 0 1.71rem; font-size: 14px; line-height: 1.8;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad necessitatibus id similique commodi vitae? Quam rem, commodi quae incidunt, distinctio veniam nesciunt placeat aliquam libero nobis voluptate, tempore!</p>
+            <p style="color: rgba(34,34,34,0.75); margin: 0 0 1.71rem; font-size: 14px; line-height: 1.8;">Lorem ipsum dolor sit amet, <a href="#">links</a> adipisicing elit. Adipisci praesentium ad necessitatibus id similique commodi vitae? Quam rem, commodi quae incidunt, distinctio veniam nesciunt placeat aliquam libero nobis voluptate, tempore!</p>
           </div>
         </div>
         <div class="fl w-50 pa2">
@@ -291,6 +291,42 @@
 
             </form>
 
+            <h4 class="mh0 mt5 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Floating Labels Example w/ Grid</span> <a class="fr ml2" href="https://geminilabs.github.io/float-labels.js/" target="_blank">Docs</a><a class="fr" href="http://codepen.io/jmelgoza/full/ZKoMLg/" target="_blank">Codepen</a></h4>
+            <!-- form example -->
+            <form class="form-1">
+              <div class="flex-row">
+                <div class="flex-cell">
+                  <label for="input-4">Enter a title</label>
+                  <input type="text" id="input-4" placeholder="Input" value="" />
+                </div>
+                <div class="flex-cell">
+                  <label for="input-5">Enter a title</label>
+                  <input type="text" id="input-5" placeholder="Input" value="" />
+                </div>
+                <div class="flex-cell">
+                  <label for="input-6">Enter a title</label>
+                  <input type="text" id="input-6" placeholder="Input" value="" />
+                </div>
+              </div>
+              <div class="flex-row">
+                <div class="flex-cell">
+                  <label for="input-7">Enter a title</label>
+                  <input type="text" id="input-7" placeholder="Input" value="" />
+                </div>
+              </div>
+              <div class="flex-row">
+                <div class="flex-cell">
+                  <label for="input-8">Enter a title</label>
+                  <input type="text" id="input-8" placeholder="Input" value="" />
+                </div>
+                <div class="flex-cell">
+                  <label for="input-9">Enter a title</label>
+                  <input type="text" id="input-9" placeholder="Input" value="" />
+                </div>
+              </div>
+
+            </form>
+
           </div>
         </div>
       </div>
@@ -301,10 +337,10 @@
           <h4 class="mh0 mt4 mb4 pb3 bb b--black-30 f6 helvetica"><span class="o-60">Tabs</span> <a class="fr" href="https://codepen.io/jmelgoza/full/GmdLZv/" target="_blank">Codepen</a></h4>
           <div class="product-tabs-row">
             <nav class="product-tabs">
-              <a class="product-tab is-active" href="#">Tabs one</a>
-              <a class="product-tab" href="#">Tabs two</a>
-              <a class="product-tab" href="#">Tabs three</a>
-              <a class="product-tab" href="#">Tabs four</a>
+              <a class="product-tab is-active">Tabs one</a>
+              <a class="product-tab">Tabs two</a>
+              <a class="product-tab">Tabs three</a>
+              <a class="product-tab">Tabs four</a>
             </nav>
           </div>
         </div>
@@ -323,6 +359,7 @@
       <div class="mb2 f5 lh-title o-60"><strong>FMTV</strong> <a href="http://codepen.io/collection/AObLgP/">Codepen Collection</a></div>
     </div>
     </header>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdn.rawgit.com/geminilabs/float-labels.js/master/dist/float-labels.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>

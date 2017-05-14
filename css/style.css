@@ -13,12 +13,20 @@ a {
   color: #D76713;
 }
 
+a:hover {
+  color: #AB510F;
+}
+
 footer {
   background-color: rgba(103, 105, 104, .8);
   /*#676968 80%*/
 }
 
 footer a {
+  color: #fff;
+}
+
+footer a:hover {
   color: #fff;
 }
 
@@ -70,4 +78,25 @@ footer a {
 
 .bg-black-haze {
   background-color: #E0E2D7;
+}
+
+/* basic flex grid */
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.flex-row .flex-cell {
+  padding: 0 0 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.flex-row .flex-cell:first-child {
+  padding: 0;
 }
