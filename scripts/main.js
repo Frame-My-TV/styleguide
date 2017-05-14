@@ -4,3 +4,11 @@
 var floatlabels = new FloatLabels( 'form', {
     style: 2,
 });
+
+// Tabs example
+$(function() {
+  $(".product-tab").click(function() {
+    $(".product-tab").removeClass("is-active")
+    $(this).addClass("is-active");
+  });
+});
