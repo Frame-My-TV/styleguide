@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>FMTV - Styleguide</title>
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/tachyons.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/forms.css">
-  <link rel="stylesheet" href="css/tabs.css">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="./css/tachyons.css?sdsf">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/forms.css">
+  <link rel="stylesheet" href="./css/tabs.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/geminilabs/float-labels.js/master/dist/float-labels.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,700i" rel="stylesheet">
 </head>
@@ -18,8 +18,10 @@
   <section>
     <header class="sans-serif">
       <div class="mw9 center pa4 pt5-ns ph6-l">
-        <div class="mb2 f5 lh-title o-60">FMTV</div>
-        <h1>Styleguide <span class="f6 o-60">v1.1.4</span></h1>
+        <div class="flex items-center pb2">
+          <img src="images/logo-main.svg" alt="Frame My TV">
+          <span class="f4 b lh-title o-80 ml3">Styleguide <span class="f6 o-60">v1.1.5</span></span>
+        </div>
       </div>
     </header>
     <div class="pa4 ph6-l mw9-l center">
@@ -82,8 +84,15 @@
           </div>
         </div>
         <div class="fl w-25 pa2">
-          <div class="relative ba b--black-20 swatch-rainee h5 tc pv4">
-            <code class="absolute bottom-1 left-2 black-80 f6 code">#AEBDAF</code>
+          <div class="relative">
+            <div class="relative h3 bt bl br b--black-20 swatch-rainee">
+            </div>
+            <div class="relative h3 bl br b--black-20 swatch-rainee">
+              <code class="absolute bottom-1 left-2 black-80 f6 code">#EEF0E5</code>
+            </div>
+            <div class="relative h4 bb bl br b--black-20 swatch-sirococo">
+              <code class="absolute bottom-1 left-2 white-90 f6 code">#788579</code>
+            </div>
           </div>
         </div>
       </div>
@@ -98,9 +107,17 @@
         </div>
         <div class="fl w-50 pa2">
           <div class="ba b--black-20 bg-white tl pa4">
-            <h1 style="color: rgba(34,34,34,0.9);">Font-Family CSS</h1>
-            <code>font-family: 'Montserrat', sans-serif;</code>
-            <p><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Google Fonts</a></p>
+            <div>
+              <h1 style="color: rgba(34,34,34,0.9);">Fonts</h1>
+              <div class="f5 b mb2 black-60">Primary</div>
+              <code>font-family: 'Montserrat', sans-serif;</code>
+              <p class="f6"><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Download</a></p>
+            </div>
+            <div class="mt4">
+              <div class="f5 b mb2 black-60">Secondary</div>
+              <code>font-family: 'Roboto', sans-serif;</code>
+              <p class="f6"><a href=" https://fonts.google.com/specimen/Roboto" target="_blank">Download</a></p>
+            </div>
           </div>
         </div>
       </div>
