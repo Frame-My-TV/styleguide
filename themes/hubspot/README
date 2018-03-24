@@ -1,0 +1,13 @@
+# Hubspot PRIME
+
+v1
+
+## Head assets
+
+```html
+<!-- prime styles -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700|Roboto:400,700" rel="stylesheet">
+<link href="https://cdn2.hubspot.net/hubfs/2302681/prime_theme_assets/tachyons.min.css" rel="stylesheet">
+<link href="https://unpkg.com/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
+<link href="https://unpkg.com/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet">
+```
