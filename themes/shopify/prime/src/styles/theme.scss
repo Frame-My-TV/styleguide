@@ -11,7 +11,7 @@
 @import url('settings/variables.scss.liquid');
 
 /*================ COMMON ================*/
-@import url('global/tachyons.scss');
+@import url('global/normalize.scss');
 @import url('global/slate-reset.scss');
 @import url('global/helper-classes.scss');
 @import url('global/grid.scss');
@@ -26,6 +26,3 @@
 /*================ MODULES ================*/
 @import url('modules/site-header.scss');
 @import url('modules/gift-card-template.scss');
-
-/*================ VENDOR ================*/
-@import url('vendor/prime.scss');
