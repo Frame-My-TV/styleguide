@@ -1,0 +1,161 @@
+$bg-default-one: #EEF0E5;
+$bg-default-two: #E0E2D7;
+$bg-primary-one: #D76713;
+$bg-primary-two: #AB510F;
+$bg-secondary-one: #aebdaf;
+$bg-secondary-two: #788579;
+$text-default: #676968;
+$text-dark: #272928;
+$text-darker: #1F201F;
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
+
+/* body */
+
+body, html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  color: $text-default;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+/* background colors */
+
+.bg-default-one {
+  background-color: $bg-default-one;
+}
+
+.bg-default-two {
+  background-color: $bg-default-two;
+}
+
+.bg-primary-one {
+  background-color: $bg-primary-one;
+}
+
+.bg-primary-two {
+  background-color: $bg-primary-two;
+}
+
+.bg-secondary-one {
+  background-color: $bg-secondary-one;
+}
+
+.bg-secondary-two {
+  background-color: $bg-secondary-two;
+}
+
+.bg-dark {
+  background-color: $text-dark;
+}
+
+.bg-darker {
+  background-color: $text-darker;
+}
+
+/* borders colors */
+
+.b--default-one {
+  border-color: $bg-default-one;
+}
+
+.b--default-two {
+  border-color: $bg-default-two;
+}
+
+.b--primary-one {
+  border-color: $bg-primary-one;
+}
+
+.b--primary-two {
+  border-color: $bg-primary-two;
+}
+
+.b--secondary-one {
+  border-color: $bg-secondary-one;
+}
+
+.b--secondary-two {
+  border-color: $bg-secondary-two;
+}
+
+.b--dark {
+  border-color: $text-dark;
+}
+
+.b--darker {
+  border-color: $text-darker;
+}
+
+/* fonts */
+
+.montserrat {
+  font-family: $font-primary;
+}
+
+.roboto {
+  font-family: $font-secondary;
+}
+
+/* text colors */
+
+.text-default {
+  color: $text-default;
+}
+
+.text-dark {
+  color: $text-dark;
+}
+
+.text-darker {
+  color: $text-darker;
+}
+
+/* cta colors */
+
+.cta-primary {
+  color: $bg-primary-one;
+}
+
+.cta-primary:hover {
+  color: $bg-primary-two;
+}
+
+.b--cta-primary {
+  border-color: $bg-primary-one;
+}
+
+.b--cta-primary:hover {
+  border-color: $bg-primary-two;
+}
+
+.bg-cta-primary {
+  border-color: $bg-primary-one;
+}
+
+.bg-cta-primary:hover {
+  border-color: $bg-primary-two;
+}
+
+/* shadows */
+
+.shadow-default {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 44px;
+}
+
+/* footer */
+
+.footer ul li svg {
+  height: 20px;
+}
+
+/* info bar */
+
+.info-bar {
+  top: 110px;
+  background-color: rgba(66, 67, 66, 0.9);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.15);
+}
